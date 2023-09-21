@@ -1,24 +1,31 @@
-# Sentiment-Analysis-ML-Flask-App
-A machine learning end to end flask web app for sentiment analysis model created using Scikit-learn &amp; VADER Sentiment. <br />
-The project uses libraries like : <br />
-Flask <br />
-Sklearn <br />
-Requests <br />
-NLTK <br />
-RE <br />
-vaderSentiment <br />
+# Sentiment Analysis Web App with Flask
 
-### VADER SENTIMENT <br />
-VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains. <br />
-More about [VADER](https://pypi.org/project/vaderSentiment/)
-<br />
-<br />
-### LET'S TALK ABOUT SENTIMENT ANALYSIS <br />
-Sentiment analysis, an important area in Natural Language Processing, is the process of automatically detecting affective states of text. Sentiment analysis is widely applied to voice-of-customer materials such as product reviews in online shopping websites like Amazon, movie reviews or social media. It can be just a basic task of classifying the polarity of a text as being positive/negative or it can go beyond polarity, looking at sentiment states etc. <br />
-Sentiment analysis refers to analyzing an opinion or feelings about something using data like text or images, regarding almost anything. Sentiment analysis helps companies in their decision-making process. For instance, if public sentiment towards a product is not so good, a company may try to modify the product or stop the production altogether in order to avoid any losses. <br />
+Welcome to our Sentiment Analysis web application! This end-to-end Flask-based platform harnesses the power of machine learning to analyze sentiments in text. We've integrated both Scikit-learn and VADER Sentiment to provide you with accurate sentiment insights.
 
-There are many sources of public sentiment e.g. public interviews, opinion polls, surveys, etc. However, with more and more people joining social media platforms, websites like Facebook and Twitter can be parsed for public sentiment. <br />
-<br />
-The output looks like : <br />
-![](sentiment.gif)
+## Libraries Utilized
+Our project relies on various Python libraries to function effectively:
 
+- **Flask**: A micro web framework for building web applications.
+- **Scikit-learn**: A versatile machine learning library used for creating and training sentiment analysis models.
+- **Requests**: Enables communication with external APIs and services.
+- **NLTK**: Natural Language Toolkit for text processing and analysis.
+- **RE**: Regular Expressions for advanced text manipulation.
+- **VADER Sentiment**: Valence Aware Dictionary and sEntiment Reasoner, designed for sentiment analysis, especially on social media text.
+
+For more information about VADER Sentiment, you can visit [here](https://pypi.org/project/vaderSentiment/).
+
+## Understanding Sentiment Analysis
+
+Sentiment analysis is a crucial component of Natural Language Processing, involving the automatic detection of emotional states expressed in text. This analysis is widely applied to various types of text data, such as product reviews on e-commerce platforms like Amazon, movie reviews, and social media posts. It can range from basic polarity classification (positive/negative) to more complex sentiment categorization.
+
+Sentiment analysis plays a vital role in decision-making for businesses. For instance, if public sentiment towards a product is negative, a company might consider product modifications or discontinuation to prevent losses.
+
+There are numerous sources of public sentiment, including interviews, polls, surveys, and, increasingly, social media platforms like Facebook and Twitter.
+
+## How It Works
+
+Our web app takes user-provided text and analyzes its sentiment. The result is displayed in an easy-to-understand format. Whether you're interested in gauging public sentiment on social media or analyzing product reviews, our tool can help you gain valuable insights.
+
+Sentiment analysis is a powerful tool that can inform your decision-making process. Start using our web app today and unlock the potential of sentiment analysis for your needs.
+
+Explore the world of sentiment analysis with our user-friendly web application.
